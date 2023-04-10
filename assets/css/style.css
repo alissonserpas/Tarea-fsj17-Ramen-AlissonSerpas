@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Roboto+Mono:ital,wght@1,300&family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Cinzel:wght@400;500&family=Roboto+Mono:ital,wght@1,300&family=Sono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    height: 150px;
+    font-family: 'Cinzel', serif;
+
+}
+
+.titulo-1{
+    position: relative;
+    top: 50%;
+    left: -95px;
+    color: white;
+
+
+}
+
+.titulo-2{
+    position: relative;
+    top: 25%;
+    right: -125px;
+    color: white;
+
+}
+
+#ramen-img{
+    position: relative;
+    top: -80px;
+    width: 15%;
+}
+
+
+nav{
+    background-color: palegoldenrod;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a{ 
+    color: black;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    margin: 15px;
+    font-size: 17px;
+
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
+main{
+    margin: 0;
+    
+}
+
+#circulo1-png{ 
+    width: 15%;
+    position: absolute;
+    left: -100px;
+    top: 300px ;
+}
+
+#circulo2-png{
+    width: 15%;
+    position: absolute;
+    right: -100px;
+    top: 1000px;
+}
+
+#circulo3-png{
+    width: 10%;
+    position: absolute;
+    left: -80px;
+
+}
+
+.subtitulo{
+    margin: 10%;
+    font-family: 'Cinzel', serif;
+    font-size: 300%;
+}
+
+.info{
+    text-align: justify;
+    margin: 3%;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+}
+
+#ramen1-jpg{
+    width: 50%;
+    border-radius: 10%;    
+}
+
+.subtitulo-2{
+    color: black;
+    margin: 5%;
+    font-family: 'Cinzel', serif;
+    font-size: 200%;
+    text-decoration: underline;
+
+}
+
+.section-ramen{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.img-ramens{
+    width: 450px;
+    border-radius: 30%;
+    margin: 9%;
+}
+
+.name-ramens{
+    display: flex;
+    position: absolute;
+    left: 19rem;
+    font-size: 150%;
+    font-family: 'Cinzel', serif;
+    color: black;
+    
+}
+
+.name2-ramens{
+    display: flex;
+    position: absolute;
+    right: 200px;
+    font-size: 150%;
+    color: black;
+    font-family: 'Cinzel', serif;
+}
+
+.name-lugares h2{
+    font-family: 'Cinzel', serif;
+    margin: 5%;
+}
+
+#cultura1-png{
+    width: 15%;
+    position: absolute;
+    left: -10px;
+    top: 185rem ;
+}
+
+/** formulario **/
+
+.formulario{
+    background-color: rgb(221, 219, 219);
+    margin: 0;
+    width: 100%;
+    padding: 1rem;
+    font-family: 'Cinzel', serif;
+
+}
+
+#boton{
+    width: 10%;
+    padding: 10px;
+    margin-top: 40px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+}
+
+
+#boton:hover{
+    background-color: gray;
+    border: 1px solid gray
+}
+
+
+/** footer **/
+
+footer{
+    background-color: #000000;
+    width: 100%;
+    min-height: 100px;   
+}
+
+.contenedor-pie{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    padding-top: 30px;
+}
+
+.contenedor-pie a{
+    color: palegoldenrod;
+    font-size: 30px;
+    
+}
+
+.copy-footer{
+    text-align: center;
+    color: palegoldenrod;   
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Cinzel', serif;
+}
+
+/** ramenshoyu-shio.html **/
+
+.ramensedit-img{
+    width: 50%;
+}
+
+#shoyuu-png{
+    width: 20%;
+    position: absolute;
+    right: -50px;
+}
+
+/** ramenmiso-tonkotsu.html **/
+
+#ramenimg{
+    width: 25%;
+    position: absolute;
+    right: -60px;
+    top: 980px;
+
+}
+
+
+
+@media (max-width:768px){
+    .contact-fondo{
+        background-position: center;
+    }
+}
+
